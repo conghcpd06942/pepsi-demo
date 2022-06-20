@@ -1,0 +1,50 @@
+.post-content {
+    height:100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap:0 80px;
+    background: #1e77e8;
+    color: white;
+     
+}
+.post-content .post-content-left {
+    width:450px;
+    
+}
+
+.post-content .post-content-left h1 {
+    font-size: 3em;
+    line-height:1em;
+    font-weight: 600;
+}
+
+.post-content .post-content-left p {
+    width: 400px;
+    font-size: 1.5rem;
+    margin-top:20px;
+}
+
+
+.post-content .post-content-left button {
+    background: transparent;
+    padding: 5px 30px;
+    border-radius: 20px;
+    outline:none;
+    border:1px solid white;
+    margin-top: 20px;
+    transition: 0.25s linear;
+    color:white;
+    font-weight: 550;
+}
+
+.post-content .post-content-left button:hover {
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(63, 63, 242);    
+}
+.post-content-right img {
+    padding-right: 100px;
+}

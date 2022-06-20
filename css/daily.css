@@ -1,0 +1,77 @@
+    h1 {
+        color: rgb(43, 120, 146);
+        font-size: 45px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    article h3 {
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin: 20px;
+        transition: 0.4s;
+        padding: 30px 0;
+    }
+
+    .container-daili {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        transition: 0.3s all ease;
+    }
+
+    .container-daili img {
+        width: 45%;
+        object-fit: cover;
+    }
+
+    .content-daili {
+        width: 45%;
+        transition: 0.9s all ease;
+    }
+
+    .content-daili h4 {
+      text-align: center;
+    font-size: 30px;
+    margin-top: -48px;
+    }
+
+    .content-daili p {
+        text-align: justify;
+        text-indent: 30px;
+        transition: 0.5s;
+    }
+    .content-daili h3 {
+        width: 515px;
+        font-size: 1rem;
+        margin-top: -15px;
+        text-align: left;
+    }
+    .content-daili h5 {
+        width: 600px;
+        font-size: 1rem;
+        margin-top: 18px;
+        text-align: left;
+    }
+    .mienbac {
+        padding: 30px;
+    }
+
+    .mientrung {
+        width: 100%;
+        background-color: #236AB3;
+        padding: 30px;
+        color: white;
+    }
+
+    .mientrung h3 {
+        color: white;
+    }
+
+    .miennam {
+        padding: 30px;
+    }

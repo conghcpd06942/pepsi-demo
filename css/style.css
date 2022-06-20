@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #236AB3;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  /* border-bottom: 1px solid #dadada; */
+    padding: 0 3%;
+    height: 100px;
+z-index: 1;
+}
+
+header a {
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header a img {
+    width: 82%;
+    transition: 0.5s;
+    padding-left: 23px;
+}
+
+article #contents {
+    font-size: 10px;
+}
+
+header a img:hover {
+    /* width: 150px; */
+    /* transform: translate(5px,40px); */
+
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+
+}
+
+header ul a {
+    padding: 0 20px;
+    transition: 0.3s;
+}
+
+header ul a:hover {
+    color: #79a8d8;
+}
+.banner img {
+    width: 100%;
+    height: 700px;
+}
+.search-box {
+    width: 40px;
+    height: 40px;
+    background-color: #242628;
+    position: relative;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+
+.search-box.open {
+    width: 300px;
+}
+
+
+.search-box .search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 100px 20px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.search-box .btn-search {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #242628;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.search-box .btn-search ion-icon {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+/* footer  */
+
+footer {
+    background-color: #236AB3;
+    width: 100%;
+    color: white;
+    height: 210px;
+    position: relative;
+    padding: auto;
+    text-align: center;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #daddad;
+    border-bottom: 1px solid #daddad;
+    width: 100%;
+}
+
+.col-3 {
+    width: 32%;
+    height: 205px;
+    padding: 30px;
+    
+}
+.col-3  h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+.col-3 ul li {
+    margin-top: 10px;
+}
+
+.col-3 img {
+    width: 80%;
+    height: 150px;
+    object-fit: cover;
+    transition: 1s;
+}
+.col-3 img:hover {
+    transform: rotate(1080deg);
+    transition: 1s;
+    transition-delay: 0.1s;
+}
+/* .col-3 img {
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+.col-3 img:after {
+    transform: rotate(-360deg);
+    transition: 0.6s;
+}
+
+.footer-bottom {
+    background-color: #236AB3;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-icon ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.youtube:hover {
+    color: rgb(194, 70, 70);
+}
+.facebook:hover {
+color: #5d67f0;
+}
+.instagram:hover {
+color: #b4448f;
+}
+.tiktok:hover {
+color: #b4448f;
+}
+.twitter:hover {
+color: #37a9e1;
+}
